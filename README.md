@@ -35,21 +35,13 @@ mvn clean spring-boot:run -Dserver.port=8280
 
 ## Running the tests
 
-
 ### Break down into end to end tests
 
-
-```
-Give an example
+Let's do the login first using following call:
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
-
 ```
-Give an example
-```
+
 
 ## Built With
 
