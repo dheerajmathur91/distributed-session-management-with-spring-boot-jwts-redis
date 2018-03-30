@@ -4,11 +4,12 @@ Description here
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development.
 
 ### Prerequisites
 
 What things you need to install the software and how to install them
+- JDK 1.7
 - Redis
 - Maven
 
@@ -16,15 +17,17 @@ What things you need to install the software and how to install them
 
 A step by step series of examples that tell you have to get a development env running
 
-We will need to run this application on two different servers or two different ports on single server to test our application is allowing session management across servers.
+We will need to run this application on two different servers or two instances on single server to test our application is allowing session management across servers.
 
 Here, we are running this application on two different ports on single machine.
+
+Open terminal, reach to the project directory and execute following command:
 
 ```
 mvn clean spring-boot:run -Dserver.port=8180
 ```
 
-And in another terminal
+And in another terminal in the project directory, execute following command:
 
 ```
 mvn clean spring-boot:run -Dserver.port=8280
@@ -35,7 +38,6 @@ mvn clean spring-boot:run -Dserver.port=8280
 
 ### Break down into end to end tests
 
-Explain what these tests test and why
 
 ```
 Give an example
@@ -49,37 +51,11 @@ Explain what these tests test and why
 Give an example
 ```
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
-
+* **Dheeraj Mathur** - *Initial work* - [PurpleBooth](https://github.com/dheerajmathur91)
 
